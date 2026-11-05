@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b2848" />
+      <stop offset="100%" stop-color="#0f1627" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffe279" />
+      <stop offset="50%" stop-color="#d49a23" />
+      <stop offset="100%" stop-color="#91640a" />
+    </linearGradient>
+    <linearGradient id="crestGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff4a36" />
+      <stop offset="100%" stop-color="#b81d13" />
+    </linearGradient>
+    <linearGradient id="steelGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0f3f6" />
+      <stop offset="45%" stop-color="#a2adb9" />
+      <stop offset="100%" stop-color="#5a6572" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="108" fill="url(#bgGrad)" />
+  <rect x="16" y="16" width="480" height="480" rx="92" fill="none" stroke="url(#goldGrad)" stroke-width="8" stroke-opacity="0.6" />
+
+  <!-- Outer Laurel Wreath Ring -->
+  <g fill="url(#goldGrad)" opacity="0.85">
+    <!-- Left Leaves -->
+    <path d="M 120 280 C 100 240, 110 180, 150 140 C 135 170, 135 220, 155 250 Z" />
+    <path d="M 100 340 C 90 300, 110 260, 140 230 C 130 260, 135 300, 150 330 Z" />
+    <path d="M 120 400 C 120 360, 140 330, 180 310 C 160 335, 160 370, 160 400 Z" />
+    <path d="M 180 440 C 170 410, 200 380, 240 370 C 220 395, 215 425, 210 445 Z" />
+    <!-- Right Leaves -->
+    <path d="M 392 280 C 412 240, 402 180, 362 140 C 377 170, 377 220, 357 250 Z" />
+    <path d="M 412 340 C 422 300, 402 260, 372 230 C 382 260, 377 300, 362 330 Z" />
+    <path d="M 392 400 C 392 360, 372 330, 332 310 C 352 335, 352 370, 352 400 Z" />
+    <path d="M 332 440 C 342 410, 312 380, 272 370 C 292 395, 297 425, 302 445 Z" />
+  </g>
+
+  <!-- Helmet Red Plume / Crest -->
+  <path d="M 190 220 C 180 120, 240 70, 340 85 C 370 120, 360 170, 335 200 C 310 170, 250 160, 220 220 Z" fill="url(#crestGrad)" />
+  <path d="M 230 110 Q 256 95 300 105" stroke="#ffe279" stroke-width="4" fill="none" opacity="0.7" />
+
+  <!-- Steel Helmet Dome -->
+  <path d="M 195 240 C 195 170, 317 170, 317 240 C 317 265, 300 280, 256 280 C 212 280, 195 265, 195 240 Z" fill="url(#steelGrad)" />
+
+  <!-- Helmet Visor / Brow Guard -->
+  <path d="M 180 240 Q 256 226 332 240 L 336 254 Q 256 240 176 254 Z" fill="url(#goldGrad)" />
+
+  <!-- Cheek Guards -->
+  <path d="M 205 265 L 222 335 L 244 320 L 235 265 Z" fill="url(#steelGrad)" stroke="#46505c" stroke-width="2" />
+  <path d="M 307 265 L 290 335 L 268 320 L 277 265 Z" fill="url(#steelGrad)" stroke="#46505c" stroke-width="2" />
+
+  <!-- Golden Laurel Insignia on Brow -->
+  <circle cx="256" cy="245" r="9" fill="url(#goldGrad)" />
+  <circle cx="256" cy="245" r="5" fill="#2a1d00" />
+</svg>
